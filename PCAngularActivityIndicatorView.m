@@ -109,6 +109,9 @@
     rotationAnimation.duration = self.duration * 1.5;
     rotationAnimation.repeatCount = INFINITY;
     
+    rotationAnimation.removedOnCompletion = NO;
+    groupAnimation.removedOnCompletion = NO;
+    
     [self.shapeLayer addAnimation:rotationAnimation forKey:nil];
     [self.shapeLayer addAnimation:groupAnimation forKey:nil];
     
