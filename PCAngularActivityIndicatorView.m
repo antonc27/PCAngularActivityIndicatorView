@@ -177,4 +177,9 @@
     [self didChangeValueForKey:@"color"];
 }
 
+- (CGSize)intrinsicContentSize
+{
+    return self.frame.size;
+}
+
 @end
