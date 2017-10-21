@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PCAngularActivityIndicatorView"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "PCAngularActivityIndicatorView is a drop-in replacement for UIActivityIndicatorView on iOS that mimicks Google's Material loader."
   s.homepage         = "https://github.com/antonc27/PCAngularActivityIndicatorView"
   s.license          = 'MIT'
